@@ -24,5 +24,8 @@
 - Image Validation for rejecting non-agri related images
 - Adding ensemble methods and applying Data Augmentation techniques to improve Generalization
 - Switching Local Ollama to cloud-based LLM call
-  
-Contributions are welcome! If you find some bugs, have any suggestions or want to improve the model, Feel free to drop your Pull Requests!!
+
+## Demo
+https://github.com/user-attachments/assets/9f18635e-23d5-4b15-8674-59ca7badb1ff
+
+Contributions are welcome! If you find some bugs or have any suggestions, feel free to drop your Pull Requests!!
