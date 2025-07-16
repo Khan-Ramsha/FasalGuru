@@ -18,7 +18,6 @@ class FertilizerRecommender:
         self.model = joblib.load(model_path)
     def predict(self, data):
         data = pd.DataFrame([data])  
-
         data.columns = [
             "Temparature",
             "Humidity",

@@ -6,7 +6,6 @@ class DiseasePrevention:
         self.model_name = model_name
 
     def get_prevention_plan(self, disease: str, temperature: float, humidity: float, weather: float) -> str:
-      
         prompt = f"""
         You are an agricultural expert.
         Current weather: Temperature {temperature}°C, Humidity {humidity}%, Weather {weather}
@@ -26,4 +25,3 @@ class DiseasePrevention:
         # Extract the model response
         response = result.stdout.strip()
         return response
-

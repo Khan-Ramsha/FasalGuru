@@ -14,7 +14,7 @@ class WaterRequirementPredictor:
 
         with open(labels_path, "r") as f:
             self.labels = json.load(f)
-
+            
     def preprocess_input(self, crop_type, soil_type, temperature, humidity, soil_moisture, rainfall):
         """
         Convert categorical inputs into numerical values using label encoding.
@@ -31,10 +31,9 @@ class WaterRequirementPredictor:
                                 columns=["Crop Type", "Soil Type", "Temperature (°C)", "Humidity (%)", "Soil Moisture (%)", "Rainfall (mm)"])
             
             return data
-
         except Exception as e:
             raise ValueError(f"Error in preprocessing: {str(e)}")
-
+        
     def predict(self, crop_type, soil_type, temperature, humidity, soil_moisture, rainfall):
         """
         Predict water requirement using the trained model.
