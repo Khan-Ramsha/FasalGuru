@@ -26,6 +26,6 @@
 - Switching Local Ollama to cloud-based LLM call
 
 ## Demo
-https://github.com/user-attachments/assets/9f18635e-23d5-4b15-8674-59ca7badb1ff
+https://github.com/user-attachments/assets/18c6cec3-7d3b-4e20-9732-6d60312a95b6
 
 Contributions are welcome! If you find some bugs or have any suggestions, feel free to drop your Pull Requests!!
