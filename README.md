@@ -1,6 +1,6 @@
-# AgriAssist: Real-Time Agricultural Decision Support Platform
+# FasalGuru: Real-Time Agricultural Decision Support Platform
 
-**AgriAssist** is a modular, API-based platform using AI models to assist farmers and agri-businesses in:
+**FasalGuru** is a modular, API-based platform using AI models to assist farmers and agri-businesses in:
 - Crop disease/pest detection (from leaf images)
 - Fertilizer recommendation
 - Real-time irrigation
